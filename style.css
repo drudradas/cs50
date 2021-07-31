@@ -1,0 +1,67 @@
+body{
+    font-family:"Verdana"
+ }
+ p{
+   font-size:20px;
+ }
+ h3{
+   color:red;
+ }
+ a{
+   text-decoration:none;
+ }
+ .links {
+   margin-left: 87%;
+  
+   display: flex;
+   justify-content: space-between;
+ }
+ .header{
+  margin-left:40%;
+  
+ }
+ .search {
+   position: absolute;
+   top: 40%;
+   left: 30%;
+ }
+ .container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+ #gsearch {
+   width: 800px;
+   height: 50px;
+   border-radius: 15px;
+ }
+ input {
+   margin-left: 10px;
+ }
+ 
+ #gbutton,
+ #lucky {
+   width: 200px;
+   height: 30px;
+   border-radius: 10px;
+   }
+ 
+ #gbutton2{
+   width: 200px;
+   height: 30px;
+   border-radius: 10px;
+   margin:20px;
+   margin-left:300px;
+ }
+ #submit {
+   background-color: #0779E4;
+   color: white;
+   width: 100px;
+   height: 35px;
+ }
+ .form{
+   display:flex;
+   flex-direction:row;
+   margin:10px;
+   justify-content:center;
+ }
